@@ -1,0 +1,8 @@
+include ':vp2fragment'
+include ':vpager2'
+include ':titlefragment'
+include ':dynamicfragment'
+include ':fragmentadapter'
+include ':vpwithoutfrag'
+include ':app'
+rootProject.name = "ViewPagers"
