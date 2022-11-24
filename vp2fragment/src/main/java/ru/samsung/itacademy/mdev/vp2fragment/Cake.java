@@ -1,7 +1,6 @@
 package ru.samsung.itacademy.mdev.vp2fragment;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,12 +16,13 @@ class Cake extends Fragment {
     TextView year;
     ImageView photo;
 
-    public Cake(){    }
+    public Cake() {
+    }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.cake,container,false);
+        View view = inflater.inflate(R.layout.cake, container, false);
         Bundle content = getArguments();
         year = view.findViewById(R.id.year);
         year.setText(content.getString("year"));

@@ -18,8 +18,8 @@ import ru.samsung.itacademy.mdev.viewpagers.R;
 public class MyPagerAdapter extends PagerAdapter {
 
     // Добавлеям данные (контент)
-    String []year = {"14", "15", "16", "17", "18", "19"};
-    int photo[] = {R.drawable.t2014,R.drawable.tort,R.drawable.t2016,R.drawable.t2017,R.drawable.t2018,R.drawable.t2019};
+    String[] year = {"14", "15", "16", "17", "18", "19"};
+    int photo[] = {R.drawable.t2014, R.drawable.tort, R.drawable.t2016, R.drawable.t2017, R.drawable.t2018, R.drawable.t2019};
 
     // Т.к. не используем фрагмент - нужно будет передавать Контекст
     Context context;
@@ -57,7 +57,7 @@ public class MyPagerAdapter extends PagerAdapter {
     // Для удаления (выгрузки) неиспользуемых элементов из контейнеров
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-        container.removeView((LinearLayout)object);
+        container.removeView((LinearLayout) object);
     }
 
     @Override

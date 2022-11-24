@@ -17,7 +17,7 @@ public class MyAdapter extends FragmentStateAdapter {
         super(fragment);
     }
 
-    //и еперь фрагмент является не "начинкой" элемента пейджера, а самим элементом
+    //и теперь фрагмент является не "начинкой" элемента пейджера, а самим элементом
     @NonNull
     @Override
     public Fragment createFragment(int position) {

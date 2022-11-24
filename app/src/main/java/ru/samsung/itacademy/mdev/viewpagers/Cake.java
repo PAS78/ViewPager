@@ -22,7 +22,7 @@ public class Cake extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.cake,container,false);
+        View view = inflater.inflate(R.layout.cake, container, false);
         Bundle content = getArguments();
         year = view.findViewById(R.id.year);
         year.setText(content.getString("year"));

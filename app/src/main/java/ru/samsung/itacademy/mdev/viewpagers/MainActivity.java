@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     // Создаем Пейджер (как поле класса)
     ViewPager vp;
     // Создаем Адаптер
-    MyPagerAdapter myAdapter = new MyPagerAdapter(MainActivity.this);;
+    MyPagerAdapter myAdapter = new MyPagerAdapter(MainActivity.this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
